@@ -1,0 +1,7 @@
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\bin\Debug\convendeur.exe.config
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\bin\Debug\convendeur.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\bin\Debug\convendeur.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\obj\Debug\convendeur.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\obj\Debug\convendeur.csproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\obj\Debug\convendeur.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\convendeur\convendeur\obj\Debug\convendeur.pdb

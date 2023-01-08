@@ -1,0 +1,18 @@
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\bin\Release\Credit.dll
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\bin\Release\Credit.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\bin\Release\Credit.xml
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\obj\Release\Credit.vbproj.AssemblyReference.cache
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\obj\Release\Credit.vbproj.CoreCompileInputs.cache
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\obj\Release\Credit.dll
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\obj\Release\Credit.xml
+C:\Users\yggra\Desktop\CreditCeleste\Credit\Credit\obj\Release\Credit.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\bin\Release\Credit.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\bin\Release\Credit.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\bin\Release\Credit.xml
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.vbproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\CreditCeleste.Resources.resources
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.vbproj.GenerateResource.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.vbproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.xml
+C:\Users\Valgul\OneDrive\Documents\repos VS\CreditCeleste\Credit\Credit\obj\Release\Credit.pdb

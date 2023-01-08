@@ -1,0 +1,10 @@
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\bin\Debug\Credit.dll
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\bin\Debug\Credit.pdb
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\bin\Debug\Credit.xml
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.vbproj.AssemblyReference.cache
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.vbproj.GenerateResource.cache
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.vbproj.CoreCompileInputs.cache
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.dll
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.xml
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\Credit.pdb
+C:\Users\natha\source\repos\CreditCeleste\Credit\Credit\obj\Debug\CreditCeleste.Resources.resources

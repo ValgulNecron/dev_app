@@ -1,0 +1,15 @@
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\obj\Debug\restaurantClasse.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\obj\Debug\restaurantClasse.csproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\restaurantClasse.exe.config
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\restaurantClasse.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\restaurantClasse.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\obj\Debug\restaurantClasse.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\obj\Debug\restaurantClasse.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\YamlDotNet.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\Valgul\OneDrive\Documents\repos VS\restaurantClasse\restaurantClasse\bin\Debug\YamlDotNet.xml

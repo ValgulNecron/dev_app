@@ -1,0 +1,11 @@
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\TrajetRapide.dll
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\TrajetRapide.pdb
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\Ligne.dll
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\Trajet.dll
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\Ligne.pdb
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\bin\Debug\Trajet.pdb
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\obj\Debug\TrajetRapide.csproj.AssemblyReference.cache
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\obj\Debug\TrajetRapide.csproj.CoreCompileInputs.cache
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\obj\Debug\TrajetRapide.csproj.CopyComplete
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\obj\Debug\TrajetRapide.dll
+C:\Users\yggra\Desktop\CreditCeleste\TrajetRapide\TrajetRapide\obj\Debug\TrajetRapide.pdb

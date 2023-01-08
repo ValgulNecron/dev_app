@@ -1,0 +1,10 @@
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\obj\Debug\RestaurantCS3.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\obj\Debug\RestaurantCS3.csproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\RestaurantCS3.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\RestaurantCS3.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\restaurantCS1.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\restaurantCS2.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\restaurantCS1.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\bin\Debug\restaurantCS2.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\obj\Debug\RestaurantCS3.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\RestaurantCS3\RestaurantCS3\obj\Debug\RestaurantCS3.pdb

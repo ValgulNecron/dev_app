@@ -1,0 +1,9 @@
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\obj\Debug\consvoyage.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\obj\Debug\consvoyage.csproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\bin\Debug\consvoyage.exe.config
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\bin\Debug\consvoyage.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\bin\Debug\consvoyage.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\bin\Debug\voyage.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\bin\Debug\voyage.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\obj\Debug\consvoyage.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\consvoyage\consvoyage\obj\Debug\consvoyage.pdb

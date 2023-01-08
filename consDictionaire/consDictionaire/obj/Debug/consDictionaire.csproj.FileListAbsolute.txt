@@ -1,0 +1,7 @@
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\bin\Debug\consDictionaire.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\bin\Debug\consDictionaire.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\obj\Debug\consDictionaire.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\obj\Debug\consDictionaire.csproj.SuggestedBindingRedirects.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\obj\Debug\consDictionaire.csproj.CoreCompileInputs.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\obj\Debug\consDictionaire.exe
+C:\Users\Valgul\OneDrive\Documents\repos VS\consDictionaire\consDictionaire\obj\Debug\consDictionaire.pdb

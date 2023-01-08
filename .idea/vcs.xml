@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CreditCelesteProjet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CreditCelesteProjet2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/M.kreyder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/M.kreyder/CreditCelesteProjet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/M.kreyder/creditcelest.old" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/M.kreyder/testriderproject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/creditcelest.old" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/testriderproject" vcs="Git" />
+  </component>
+</project>

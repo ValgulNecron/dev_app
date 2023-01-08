@@ -1,0 +1,6 @@
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\bin\Debug\Ligne.dll
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\bin\Debug\Ligne.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\obj\Debug\Ligne.csproj.AssemblyReference.cache
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\obj\Debug\Ligne.csproj.CoreCompileInputs.cache
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\obj\Debug\Ligne.dll
+C:\Users\yggra\Desktop\CreditCeleste\Ligne\Ligne\obj\Debug\Ligne.pdb

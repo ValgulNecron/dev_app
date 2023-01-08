@@ -1,0 +1,12 @@
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\bin\Debug\Trajet.dll
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\bin\Debug\Trajet.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\bin\Debug\Ligne.dll
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\bin\Debug\Ligne.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\obj\Debug\Trajet.csproj.AssemblyReference.cache
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\obj\Debug\Trajet.csproj.CoreCompileInputs.cache
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\obj\Debug\Trajet.csproj.CopyComplete
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\obj\Debug\Trajet.dll
+C:\Users\yggra\Desktop\CreditCeleste\Trajet\Trajet\obj\Debug\Trajet.pdb
+C:\Users\Valgul\OneDrive\Documents\repos VS\Trajet\Trajet\obj\Debug\Trajet.csproj.AssemblyReference.cache
+C:\Users\Valgul\OneDrive\Documents\repos VS\Trajet\Trajet\obj\Debug\Trajet.dll
+C:\Users\Valgul\OneDrive\Documents\repos VS\Trajet\Trajet\obj\Debug\Trajet.pdb

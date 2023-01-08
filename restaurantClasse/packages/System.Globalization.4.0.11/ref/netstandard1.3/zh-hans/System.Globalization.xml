@@ -1,0 +1,1104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Globalization</name>
+  </assembly>
+  <members>
+    <member name="T:System.Globalization.Calendar">
+      <summary>将时间分成段来表示，如分成星期、月和年。</summary>
+    </member>
+    <member name="M:System.Globalization.Calendar.#ctor">
+      <summary>初始化 <see cref="T:System.Globalization.Calendar" /> 类的新实例。</summary>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)">
+      <summary>返回与指定 <see cref="T:System.DateTime" /> 相距指定天数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定天数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加天数。</param>
+      <param name="days">要添加的天数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="days" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)">
+      <summary>返回与指定 <see cref="T:System.DateTime" /> 相距指定小时数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定小时数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加小时数。</param>
+      <param name="hours">要添加的小时数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="hours" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)">
+      <summary>返回与指定 <see cref="T:System.DateTime" /> 相距指定毫秒数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定毫秒数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">要添加毫秒的 <see cref="T:System.DateTime" />。</param>
+      <param name="milliseconds">要添加的毫秒数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="milliseconds" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)">
+      <summary>返回与指定的 <see cref="T:System.DateTime" /> 相距指定分钟数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定分钟数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加分钟数。</param>
+      <param name="minutes">要添加的分钟数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="minutes" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)">
+      <summary>当在派生类中重写时，将返回与指定的 <see cref="T:System.DateTime" /> 相距指定月数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定的月数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加月数。</param>
+      <param name="months">要添加的月数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="months" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)">
+      <summary>返回与指定 <see cref="T:System.DateTime" /> 相距指定秒数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定的秒数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加秒数。</param>
+      <param name="seconds">要添加的秒数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="seconds" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)">
+      <summary>返回与指定 <see cref="T:System.DateTime" /> 相距指定周数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定周数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加星期数。</param>
+      <param name="weeks">要添加的星期数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="weeks" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)">
+      <summary>当在派生类中重写时，将返回与指定的 <see cref="T:System.DateTime" /> 相距指定年数的 <see cref="T:System.DateTime" />。</summary>
+      <returns>将指定年数添加到指定的 <see cref="T:System.DateTime" /> 中时得到的 <see cref="T:System.DateTime" />。</returns>
+      <param name="time">
+        <see cref="T:System.DateTime" />，将向其添加年数。</param>
+      <param name="years">要添加的年数。</param>
+      <exception cref="T:System.ArgumentException">得到的 <see cref="T:System.DateTime" /> 超出了此日历支持的范围。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="years" /> 超出了 <see cref="T:System.DateTime" /> 返回值支持的范围。</exception>
+    </member>
+    <member name="F:System.Globalization.Calendar.CurrentEra">
+      <summary>表示当前日历的当前纪元。</summary>
+    </member>
+    <member name="P:System.Globalization.Calendar.Eras">
+      <summary>当在派生类中重写时，获取当前日历中的纪元列表。</summary>
+      <returns>表示当前日历中的纪元的整数数组。</returns>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfMonth(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定 <see cref="T:System.DateTime" /> 中的日期是该月的几号。</summary>
+      <returns>一个正整数，表示 <paramref name="time" /> 参数中的月中日期。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfWeek(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定 <see cref="T:System.DateTime" /> 中的日期是星期几。</summary>
+      <returns>一个 <see cref="T:System.DayOfWeek" /> 值，表示 <paramref name="time" /> 参数中的周中日期。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfYear(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定 <see cref="T:System.DateTime" /> 中的日期是该年中的第几天。</summary>
+      <returns>一个正整数，表示 <paramref name="time" /> 参数中的年中日期。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32)">
+      <summary>返回当前纪元的指定月份和年份中的天数。</summary>
+      <returns>当前纪元中指定年份的指定月份中的天数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，返回指定月份、纪元年份中的天数。</summary>
+      <returns>指定纪元中指定年份的指定月份中的天数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInYear(System.Int32)">
+      <summary>返回当前纪元的指定年份中的天数。</summary>
+      <returns>当前纪元中指定年份的天数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，返回指定纪元年份中的天数。</summary>
+      <returns>指定纪元中指定年份的天数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetEra(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定的 <see cref="T:System.DateTime" /> 中的纪元。</summary>
+      <returns>表示 <paramref name="time" /> 中的纪元的整数。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetHour(System.DateTime)">
+      <summary>返回指定的 <see cref="T:System.DateTime" /> 中的小时值。</summary>
+      <returns>0 与 23 之间的一个整数，它表示 <paramref name="time" /> 中的小时。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)">
+      <summary>计算指定纪元年份的闰月。</summary>
+      <returns>一个正整数，表示指定纪元年份中的闰月。- 或 -如果此日历不支持闰月，或者 <paramref name="year" /> 和 <paramref name="era" /> 参数未指定闰年，则为零。</returns>
+      <param name="year">年份。</param>
+      <param name="era">纪元。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)">
+      <summary>返回指定的 <see cref="T:System.DateTime" /> 中的毫秒值。</summary>
+      <returns>一个介于 0 到 999 之间的双精度浮点数字，表示 <paramref name="time" /> 参数中的毫秒数。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMinute(System.DateTime)">
+      <summary>返回指定的 <see cref="T:System.DateTime" /> 中的分钟值。</summary>
+      <returns>0 到 59 之间的一个整数，它表示 <paramref name="time" /> 中的分钟值。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonth(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定的 <see cref="T:System.DateTime" /> 中的月份。</summary>
+      <returns>一个正整数，表示 <paramref name="time" /> 中的月份。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonthsInYear(System.Int32)">
+      <summary>返回当前纪元中指定年份的月数。</summary>
+      <returns>当前纪元中指定年份的月数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，将返回指定纪元中指定年份的月数。</summary>
+      <returns>指定纪元中指定年份的月数。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetSecond(System.DateTime)">
+      <summary>返回指定的 <see cref="T:System.DateTime" /> 中的秒值。</summary>
+      <returns>0 到 59 之间的一个整数，它表示 <paramref name="time" /> 中的秒数。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)">
+      <summary>返回一年中包括指定 <see cref="T:System.DateTime" /> 值中的日期的那个星期。</summary>
+      <returns>一个正整数，表示一年中包括 <paramref name="time" /> 参数中的日期的那个星期。</returns>
+      <param name="time">日期和时间值。</param>
+      <param name="rule">定义日历周的枚举值。</param>
+      <param name="firstDayOfWeek">表示一周的第一天的枚举值。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="time" /> 早于 <see cref="P:System.Globalization.Calendar.MinSupportedDateTime" /> 或晚于 <see cref="P:System.Globalization.Calendar.MaxSupportedDateTime" />。- 或 -<paramref name="firstDayOfWeek" /> 不是有效的 <see cref="T:System.DayOfWeek" /> 值。- 或 -<paramref name="rule" /> 不是有效的 <see cref="T:System.Globalization.CalendarWeekRule" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetYear(System.DateTime)">
+      <summary>当在派生类中重写时，将返回指定的 <see cref="T:System.DateTime" /> 中的年份。</summary>
+      <returns>表示 <paramref name="time" /> 中的年份的整数。</returns>
+      <param name="time">要读取的 <see cref="T:System.DateTime" />。</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32)">
+      <summary>确定当前纪元中的指定日期是否为闰日。</summary>
+      <returns>如果指定的日期是闰日，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="day">一个表示天的正整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="day" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，将确定指定纪元中的指定日期是否为闰日。</summary>
+      <returns>如果指定的日期是闰日，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="day">一个表示天的正整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="day" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32)">
+      <summary>确定当前纪元中指定年份的指定月份是否为闰月。</summary>
+      <returns>如果指定的月份是闰月，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，将确定指定纪元中指定年份的指定月份是否为闰月。</summary>
+      <returns>如果指定的月份是闰月，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapYear(System.Int32)">
+      <summary>确定当前纪元中的指定年份是否为闰年。</summary>
+      <returns>如果指定的年是闰年，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，将确定指定纪元中的指定年份是否为闰年。</summary>
+      <returns>如果指定的年是闰年，则为 true；否则为 false。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="P:System.Globalization.Calendar.IsReadOnly">
+      <summary>获取一个值，该值指示此 <see cref="T:System.Globalization.Calendar" /> 对象是否为只读。</summary>
+      <returns>如果此 <see cref="T:System.Globalization.Calendar" /> 对象为只读，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Globalization.Calendar.MaxSupportedDateTime">
+      <summary>获取此 <see cref="T:System.Globalization.Calendar" /> 对象支持的最晚日期和时间。</summary>
+      <returns>此日历支持的最晚日期和时间。默认值为 <see cref="F:System.DateTime.MaxValue" />。</returns>
+    </member>
+    <member name="P:System.Globalization.Calendar.MinSupportedDateTime">
+      <summary>获取此 <see cref="T:System.Globalization.Calendar" /> 对象支持的最早日期和时间。</summary>
+      <returns>此日历支持的最早日期和时间。默认值为 <see cref="F:System.DateTime.MinValue" />。</returns>
+    </member>
+    <member name="M:System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>返回设置为当前纪元中的指定日期和时间的 <see cref="T:System.DateTime" />。</summary>
+      <returns>设置为当前纪元中的指定日期和时间的 <see cref="T:System.DateTime" />。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="day">一个表示天的正整数。</param>
+      <param name="hour">0 与 23 之间的一个整数，它表示小时。</param>
+      <param name="minute">0 与 59 之间的一个整数，它表示分钟。</param>
+      <param name="second">0 与 59 之间的一个整数，它表示秒。</param>
+      <param name="millisecond">0 与 999 之间的一个整数，它表示毫秒。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="day" /> 超出了日历支持的范围。- 或 -<paramref name="hour" /> 小于零或大于 23。- 或 -<paramref name="minute" /> 小于零或大于 59。- 或 -<paramref name="second" /> 小于零或大于 59。- 或 -<paramref name="millisecond" /> 小于零或大于 999。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>当在派生类中重写时，将返回设置为指定纪元中的指定日期和时间的 <see cref="T:System.DateTime" />。</summary>
+      <returns>设置为当前纪元中的指定日期和时间的 <see cref="T:System.DateTime" />。</returns>
+      <param name="year">表示年份的整数。</param>
+      <param name="month">一个表示月份的正整数。</param>
+      <param name="day">一个表示天的正整数。</param>
+      <param name="hour">0 与 23 之间的一个整数，它表示小时。</param>
+      <param name="minute">0 与 59 之间的一个整数，它表示分钟。</param>
+      <param name="second">0 与 59 之间的一个整数，它表示秒。</param>
+      <param name="millisecond">0 与 999 之间的一个整数，它表示毫秒。</param>
+      <param name="era">表示纪元的整数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。- 或 -<paramref name="month" /> 超出了日历支持的范围。- 或 -<paramref name="day" /> 超出了日历支持的范围。- 或 -<paramref name="hour" /> 小于零或大于 23。- 或 -<paramref name="minute" /> 小于零或大于 59。- 或 -<paramref name="second" /> 小于零或大于 59。- 或 -<paramref name="millisecond" /> 小于零或大于 999。- 或 -<paramref name="era" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.ToFourDigitYear(System.Int32)">
+      <summary>使用 <see cref="P:System.Globalization.Calendar.TwoDigitYearMax" /> 属性将指定的年份转换为四位数年份，以确定相应的纪元。</summary>
+      <returns>包含 <paramref name="year" /> 的四位数表示形式的整数。</returns>
+      <param name="year">一个两位数或四位数的整数，表示要转换的年份。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" /> 超出了日历支持的范围。</exception>
+    </member>
+    <member name="P:System.Globalization.Calendar.TwoDigitYearMax">
+      <summary>获取或设置可以用两位数年份表示的 100 年范围内的最后一年。</summary>
+      <returns>可以用两位数年份表示的 100 年范围内的最后一年。</returns>
+      <exception cref="T:System.InvalidOperationException">当前的 <see cref="T:System.Globalization.Calendar" /> 对象为只读。</exception>
+    </member>
+    <member name="T:System.Globalization.CalendarWeekRule">
+      <summary>定义确定年份第一周的不同规则。</summary>
+    </member>
+    <member name="F:System.Globalization.CalendarWeekRule.FirstDay">
+      <summary>指示年的第一周从该年的第一天开始，到所指定周的下一个首日前结束。值为 0。</summary>
+    </member>
+    <member name="F:System.Globalization.CalendarWeekRule.FirstFourDayWeek">
+      <summary>指示年的第一周是第一个在指定的周首日前包含四天或更多天的周。值为 2。</summary>
+    </member>
+    <member name="F:System.Globalization.CalendarWeekRule.FirstFullWeek">
+      <summary>指示年的第一周从所指定周首日的第一个匹配项开始，可以是年的第一天或其后某一天。值为 1。</summary>
+    </member>
+    <member name="T:System.Globalization.CharUnicodeInfo">
+      <summary>检索 Unicode 字符的信息。此类不能被继承。</summary>
+    </member>
+    <member name="M:System.Globalization.CharUnicodeInfo.GetNumericValue(System.Char)">
+      <summary>获取与指定字符关联的数值。</summary>
+      <returns>与指定的字符关联的数值。- 或 --1，如果指定的字符不是一个数值型字符。</returns>
+      <param name="ch">要获取其数值的 Unicode 字符。</param>
+    </member>
+    <member name="M:System.Globalization.CharUnicodeInfo.GetNumericValue(System.String,System.Int32)">
+      <summary>获取与位于指定字符串的指定索引位置的字符关联的数值。</summary>
+      <returns>与位于指定字符串的指定索引位置的字符关联的数值。- 或 --1，如果位于指定字符串的指定索引位置的字符不是一个数值型字符。</returns>
+      <param name="s">
+        <see cref="T:System.String" />，包含要获取其数值的 Unicode 字符。</param>
+      <param name="index">要获取其数值的 Unicode 字符的索引。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="s" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> 超出了 <paramref name="s" /> 中的有效索引范围。</exception>
+    </member>
+    <member name="M:System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)">
+      <summary>获取指定字符的 Unicode 类别。</summary>
+      <returns>一个 <see cref="T:System.Globalization.UnicodeCategory" /> 值，指示指定字符的类别。</returns>
+      <param name="ch">要获取其 Unicode 类别的 Unicode 字符。</param>
+    </member>
+    <member name="M:System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String,System.Int32)">
+      <summary>获取位于指定字符串的指定索引位置的字符的 Unicode 类别。</summary>
+      <returns>一个 <see cref="T:System.Globalization.UnicodeCategory" /> 值，指示位于指定字符串的指定索引位置的字符的类别。</returns>
+      <param name="s">
+        <see cref="T:System.String" />，包含要获取其 Unicode 类别的 Unicode 字符。</param>
+      <param name="index">要获取其 Unicode 类别的 Unicode 字符的索引。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="s" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> 超出了 <paramref name="s" /> 中的有效索引范围。</exception>
+    </member>
+    <member name="T:System.Globalization.CompareInfo">
+      <summary>实现用于区分区域性的字符串的一组方法。</summary>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+      <summary>将一个字符串的一部分与另一个字符串的一部分相比较。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零<paramref name="string1" /> 的指定部分小于 <paramref name="string2" /> 的指定部分。大于零<paramref name="string1" /> 的指定部分大于 <paramref name="string2" /> 的指定部分。 </returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="offset1">
+        <paramref name="string1" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="length1">
+        <paramref name="string1" /> 中要比较的连续字符数。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+      <param name="offset2">
+        <paramref name="string2" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="length2">
+        <paramref name="string2" /> 中要比较的连续字符数。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset1" />、<paramref name="length1" />、<paramref name="offset2" /> 或 <paramref name="length2" /> 小于零。- 或 - <paramref name="offset1" /> 大于或等于 <paramref name="string1" /> 中的字符数。- 或 - <paramref name="offset2" /> 大于或等于 <paramref name="string2" /> 中的字符数。- 或 - <paramref name="length1" /> 大于从 <paramref name="offset1" /> 到 <paramref name="string1" /> 末尾的字符数。- 或 - <paramref name="length2" /> 大于从 <paramref name="offset2" /> 到 <paramref name="string2" /> 末尾的字符数。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值将一个字符串的一部分与另一个字符串的一部分相比较。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零<paramref name="string1" /> 的指定部分小于 <paramref name="string2" /> 的指定部分。大于零<paramref name="string1" /> 的指定部分大于 <paramref name="string2" /> 的指定部分。 </returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="offset1">
+        <paramref name="string1" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="length1">
+        <paramref name="string1" /> 中要比较的连续字符数。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+      <param name="offset2">
+        <paramref name="string2" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="length2">
+        <paramref name="string2" /> 中要比较的连续字符数。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="string1" /> 和 <paramref name="string2" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" />、<see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" /> 和 <see cref="F:System.Globalization.CompareOptions.StringSort" />。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset1" />、<paramref name="length1" />、<paramref name="offset2" /> 或 <paramref name="length2" /> 小于零。- 或 - <paramref name="offset1" /> 大于或等于 <paramref name="string1" /> 中的字符数。- 或 - <paramref name="offset2" /> 大于或等于 <paramref name="string2" /> 中的字符数。- 或 - <paramref name="length1" /> 大于从 <paramref name="offset1" /> 到 <paramref name="string1" /> 末尾的字符数。- 或 - <paramref name="length2" /> 大于从 <paramref name="offset2" /> 到 <paramref name="string2" /> 末尾的字符数。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32)">
+      <summary>将一个字符串的结尾部分与另一个字符串的结尾部分相比较。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零<paramref name="string1" /> 的指定部分小于 <paramref name="string2" /> 的指定部分。大于零<paramref name="string1" /> 的指定部分大于 <paramref name="string2" /> 的指定部分。 </returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="offset1">
+        <paramref name="string1" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+      <param name="offset2">
+        <paramref name="string2" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset1" /> 或 <paramref name="offset2" /> 小于零。- 或 - <paramref name="offset1" /> 大于或等于 <paramref name="string1" /> 中的字符数。- 或 - <paramref name="offset2" /> 大于或等于 <paramref name="string2" /> 中的字符数。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值将一个字符串的结尾部分与另一个字符串的结尾部分相比较。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零<paramref name="string1" /> 的指定部分小于 <paramref name="string2" /> 的指定部分。大于零<paramref name="string1" /> 的指定部分大于 <paramref name="string2" /> 的指定部分。 </returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="offset1">
+        <paramref name="string1" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+      <param name="offset2">
+        <paramref name="string2" /> 中的字符从零开始的索引，将从此位置开始比较。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="string1" /> 和 <paramref name="string2" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" />、<see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" /> 和 <see cref="F:System.Globalization.CompareOptions.StringSort" />。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset1" /> 或 <paramref name="offset2" /> 小于零。- 或 - <paramref name="offset1" /> 大于或等于 <paramref name="string1" /> 中的字符数。- 或 - <paramref name="offset2" /> 大于或等于 <paramref name="string2" /> 中的字符数。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.String)">
+      <summary>比较两个字符串。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零 <paramref name="string1" /> 小于 <paramref name="string2" />。大于零 <paramref name="string1" /> 大于 <paramref name="string2" />。</returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Compare(System.String,System.String,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值比较两个字符串。</summary>
+      <returns>一个 32 位有符号整数，指示两个比较数之间的词法关系。值条件零这两个字符串相等。小于零 <paramref name="string1" /> 小于 <paramref name="string2" />。大于零 <paramref name="string1" /> 大于 <paramref name="string2" />。 </returns>
+      <param name="string1">要比较的第一个字符串。</param>
+      <param name="string2">要比较的第二个字符串。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="string1" /> 和 <paramref name="string2" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" />、<see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" /> 和 <see cref="F:System.Globalization.CompareOptions.StringSort" />。</param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.Equals(System.Object)">
+      <summary>确定指定的对象是否等于当前的 <see cref="T:System.Globalization.CompareInfo" /> 对象。</summary>
+      <returns>如果指定的对象等于当前的 <see cref="T:System.Globalization.CompareInfo" />，则为 true；否则为 false。</returns>
+      <param name="value">将与当前 <see cref="T:System.Globalization.CompareInfo" /> 进行比较的对象。 </param>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.GetCompareInfo(System.String)">
+      <summary>初始化与具有指定名称的区域性关联的新 <see cref="T:System.Globalization.CompareInfo" /> 对象。</summary>
+      <returns>一个新 <see cref="T:System.Globalization.CompareInfo" /> 对象，它与具有指定标识符的区域性关联，并使用当前 <see cref="T:System.Reflection.Assembly" /> 中的字符串比较方法。</returns>
+      <param name="name">表示区域性名称的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="name" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="name" /> 是无效的区域性名称。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.GetHashCode">
+      <summary>用作当前 <see cref="T:System.Globalization.CompareInfo" /> 的哈希函数，适合在哈希算法和数据结构（如哈希表）中使用。</summary>
+      <returns>当前 <see cref="T:System.Globalization.CompareInfo" /> 的哈希代码。</returns>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.GetHashCode(System.String,System.Globalization.CompareOptions)">
+      <summary>获取基于指定的比较选项的字符串的哈希代码。</summary>
+      <returns>32 位有符号整数哈希代码。 </returns>
+      <param name="source">其哈希代码是要返回的字符串。</param>
+      <param name="options">一个值，确定如何比较字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.Char)">
+      <summary>搜索指定的字符并返回整个源字符串内第一个匹配项的从零开始的索引。</summary>
+      <returns>如果找到，则为 <paramref name="value" /> 在 <paramref name="source" /> 内的第一个匹配项从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 0（零）。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的字符，并返回整个源字符串内第一个匹配项的从零开始的索引。</summary>
+      <returns>如果在 <paramref name="source" /> 中找到 <paramref name="value" /> 的第一个匹配项的从零开始的索引，使用指定的比较选项；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 0（零）。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <param name="options">一个值，用于定义应如何比较这些字符串。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的字符，并返回源字符串中从指定的索引位置到字符串结尾这一部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>使用指定的比较选项，如果在 <paramref name="source" /> 中从 <paramref name="startIndex" /> 一直到 <paramref name="source" /> 的结尾这部分找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32)">
+      <summary>搜索指定的字符，并返回源字符串内从指定的索引位置开始、包含指定的元素数的部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>如果在 <paramref name="source" /> 的从 <paramref name="startIndex" /> 开始、包含 <paramref name="count" /> 所指定的元素数的部分中，找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="count">要搜索的部分中的元素数。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。- 或 - <paramref name="count" /> 小于零。- 或 - <paramref name="startIndex" /> 和 <paramref name="count" /> 指定的不是 <paramref name="source" /> 中的有效部分。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的字符，并返回源字符串内从指定的索引位置开始、包含所指定元素数的部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>使用指定的比较选项，如果在 <paramref name="source" /> 中从 <paramref name="startIndex" /> 开始、包含 <paramref name="count" /> 指定的元素数的部分找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="count">要搜索的部分中的元素数。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。- 或 - <paramref name="count" /> 小于零。- 或 - <paramref name="startIndex" /> 和 <paramref name="count" /> 指定的不是 <paramref name="source" /> 中的有效部分。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.String)">
+      <summary>搜索指定的子字符串并返回整个源字符串内第一个匹配项的从零开始的索引。</summary>
+      <returns>如果找到，则为 <paramref name="value" /> 在 <paramref name="source" /> 内的第一个匹配项从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 0（零）。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="value" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的子字符串，并返回整个源字符串内第一个匹配项的从零开始的索引。</summary>
+      <returns>如果在 <paramref name="source" /> 中找到 <paramref name="value" /> 的第一个匹配项的从零开始的索引，使用指定的比较选项；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 0（零）。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符串。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="value" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的子字符串，并返回源字符串内从指定的索引位置到字符串结尾这一部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>使用指定的比较选项，如果在 <paramref name="source" /> 中从 <paramref name="startIndex" /> 一直到 <paramref name="source" /> 的结尾这部分找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符串。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="value" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32)">
+      <summary>搜索指定的子字符串，并返回源字符串内从指定的索引位置开始、包含指定的元素数的部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>如果在 <paramref name="source" /> 的从 <paramref name="startIndex" /> 开始、包含 <paramref name="count" /> 所指定的元素数的部分中，找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符串。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="count">要搜索的部分中的元素数。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="value" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。- 或 - <paramref name="count" /> 小于零。- 或 - <paramref name="startIndex" /> 和 <paramref name="count" /> 指定的不是 <paramref name="source" /> 中的有效部分。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的子字符串，并返回源字符串内从指定的索引位置开始、包含所指定元素数的部分中第一个匹配项的从零开始的索引。</summary>
+      <returns>使用指定的比较选项，如果在 <paramref name="source" /> 中从 <paramref name="startIndex" /> 开始、包含 <paramref name="count" /> 指定的元素数的部分找到 <paramref name="value" /> 的第一个匹配项，则为该项的从零开始的索引；否则为 -1。如果 <paramref name="value" /> 为可忽略字符，则将返回 <paramref name="startIndex" />。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符串。</param>
+      <param name="startIndex">从零开始的搜索的起始索引。</param>
+      <param name="count">要搜索的部分中的元素数。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="value" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="startIndex" /> 超出了 <paramref name="source" /> 的有效索引范围。- 或 - <paramref name="count" /> 小于零。- 或 - <paramref name="startIndex" /> 和 <paramref name="count" /> 指定的不是 <paramref name="source" /> 中的有效部分。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String)">
+      <summary>确定指定的源字符串是否以指定的前缀开头。</summary>
+      <returns>如果 <paramref name="prefix" /> 的长度小于或等于 <paramref name="source" /> 的长度，并且 <paramref name="source" /> 以 <paramref name="prefix" /> 开始，则为 true；否则为 false。</returns>
+      <param name="source">要在其中搜索的字符串。</param>
+      <param name="prefix">要与 <paramref name="source" /> 的开头进行比较的字符串。 </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="prefix" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值确定指定的源字符串是否以指定的前缀开头。</summary>
+      <returns>如果 <paramref name="prefix" /> 的长度小于或等于 <paramref name="source" /> 的长度，并且 <paramref name="source" /> 以 <paramref name="prefix" /> 开始，则为 true；否则为 false。</returns>
+      <param name="source">要在其中搜索的字符串。</param>
+      <param name="prefix">要与 <paramref name="source" /> 的开头进行比较的字符串。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="prefix" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="prefix" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IsSuffix(System.String,System.String)">
+      <summary>确定指定的源字符串是否以指定的后缀结尾。</summary>
+      <returns>如果 <paramref name="suffix" /> 的长度小于或等于 <paramref name="source" /> 的长度，并且 <paramref name="source" /> 以 <paramref name="suffix" /> 结尾，则为 true；否则为 false。</returns>
+      <param name="source">要在其中搜索的字符串。</param>
+      <param name="suffix">要与 <paramref name="source" /> 的结尾进行比较的字符串。 </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="suffix" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.IsSuffix(System.String,System.String,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值确定指定的源字符串是否以指定的后缀结尾。</summary>
+      <returns>如果 <paramref name="suffix" /> 的长度小于或等于 <paramref name="source" /> 的长度，并且 <paramref name="source" /> 以 <paramref name="suffix" /> 结尾，则为 true；否则为 false。</returns>
+      <param name="source">要在其中搜索的字符串。</param>
+      <param name="suffix">要与 <paramref name="source" /> 的结尾进行比较的字符串。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="suffix" />。<paramref name="options" /> 可以为其自身使用的枚举值 <see cref="F:System.Globalization.CompareOptions.Ordinal" />，或为以下一个或多个值的按位组合：<see cref="F:System.Globalization.CompareOptions.IgnoreCase" />、<see cref="F:System.Globalization.CompareOptions.IgnoreSymbols" />、<see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace" />、<see cref="F:System.Globalization.CompareOptions.IgnoreWidth" /> 和 <see cref="F:System.Globalization.CompareOptions.IgnoreKanaType" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。- 或 - <paramref name="suffix" /> 为 null。 </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="options" /> 包含无效的 <see cref="T:System.Globalization.CompareOptions" /> 值。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char)">
+      <summary>搜索指定的字符，并返回整个源字符串内最后一个匹配项的从零开始的索引。</summary>
+      <returns>如果找到，则为 <paramref name="value" /> 在 <paramref name="source" /> 内的最后一个匹配项从零开始的索引；否则为 -1。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.CompareInfo.LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions)">
+      <summary>使用指定的 <see cref="T:System.Globalization.CompareOptions" /> 值，搜索指定的字符，并返回整个源字符串内最后一个匹配项的从零开始的索引。</summary>
+      <returns>使用指定的比较选项，如果在<paramref name="source" /> 中找到 <paramref name="value" /> 的最后一个匹配项，则为从零开始的索引；否则为 -1。</returns>
+      <param name="source">要搜索的字符串。</param>
+      <param name="value">要在 <paramref name="source" /> 中定位的字符。</param>
+      <param name="options">一个值，用于定义应如何比较 <paramref name="source" /> 和 <paramref name="value" />。<paramref name="options" /> 可以为枚举值 <see cref="F:System.Globalization.CompareOptions.Ord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ��<paramref name="n" /> 是一个数字。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">属性被设置为小于 0 或大于 15 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.CurrencyPositivePattern">
+      <summary>获取或设置正货币值的格式模式。</summary>
+      <returns>正货币值的格式模式。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值是 0，它表示“$n”，其中“$”是 <see cref="P:System.Globalization.NumberFormatInfo.CurrencySymbol" />，<paramref name="n" /> 是一个数字。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">该属性被设置为小于 0 或大于 3 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.CurrencySymbol">
+      <summary>获取或设置用作货币符号的字符串。</summary>
+      <returns>用作货币符号的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“¤”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.CurrentInfo">
+      <summary>获取基于当前区域性对值进行格式设置的只读的 <see cref="T:System.Globalization.NumberFormatInfo" />。</summary>
+      <returns>基于当前线程的区域性的只读的 <see cref="T:System.Globalization.NumberFormatInfo" />。</returns>
+    </member>
+    <member name="M:System.Globalization.NumberFormatInfo.GetFormat(System.Type)">
+      <summary>获取提供数字格式化服务的指定类型的对象。</summary>
+      <returns>如果 <paramref name="formatType" /> 与当前 <see cref="T:System.Globalization.NumberFormatInfo" /> 的类型相同，则为当前 <see cref="T:System.Globalization.NumberFormatInfo" />；否则为 null。</returns>
+      <param name="formatType">所需格式化服务的 <see cref="T:System.Type" />。</param>
+    </member>
+    <member name="M:System.Globalization.NumberFormatInfo.GetInstance(System.IFormatProvider)">
+      <summary>获取与指定 <see cref="T:System.Globalization.NumberFormatInfo" /> 关联的 <see cref="T:System.IFormatProvider" />。</summary>
+      <returns>与指定 <see cref="T:System.Globalization.NumberFormatInfo" /> 关联的 <see cref="T:System.IFormatProvider" />。</returns>
+      <param name="formatProvider">用于获取 <see cref="T:System.Globalization.NumberFormatInfo" /> 的 <see cref="T:System.IFormatProvider" />。- 或 - 要获取 <see cref="P:System.Globalization.NumberFormatInfo.CurrentInfo" /> 的 null。</param>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.InvariantInfo">
+      <summary>获取不依赖于区域性的（固定）只读的 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象。</summary>
+      <returns>不依赖于区域性的（固定的）默认只读对象。</returns>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.IsReadOnly">
+      <summary>获取一个值，该值指示 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是否为只读。</summary>
+      <returns>如果 true 是只读的，则为 <see cref="T:System.Globalization.NumberFormatInfo" />；否则为 false。</returns>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NaNSymbol">
+      <summary>获取或设置表示 IEEE NaN（非数字）值的字符串。</summary>
+      <returns>表示 IEEE NaN（非数字）值的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“NaN”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NegativeInfinitySymbol">
+      <summary>获取或设置表示负无穷大的字符串。</summary>
+      <returns>表示负无穷大的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“Infinity”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NegativeSign">
+      <summary>获取或设置表示关联数字是负值的字符串。</summary>
+      <returns>表示关联数字是负值的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“-”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NumberDecimalDigits">
+      <summary>获取或设置在数值中使用的小数位数。</summary>
+      <returns>在数值中使用的小数位数。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值为 2。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">该属性被设置为小于 0 或大于 99 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NumberDecimalSeparator">
+      <summary>获取或设置在数值中用作小数分隔符的字符串。</summary>
+      <returns>在数值中用作小数分隔符的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“.”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+      <exception cref="T:System.ArgumentException">此属性当前设置为空字符串。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NumberGroupSeparator">
+      <summary>获取或设置在数值中隔开小数点左边的位数组的字符串。</summary>
+      <returns>在数值中隔开小数点左边的位数组的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“,”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NumberGroupSizes">
+      <summary>获取或设置数值中小数点左边每一组的位数。</summary>
+      <returns>数值中小数点左边每一组的位数。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值是一个一维数组，该数组只包含一个设置为 3 的元素。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.ArgumentException">试图设置该属性，但此数组包含一个小于 0 或大于 9 的项。- 或 - 试图设置该属性，但此数组包含一个设置为 0 的项（最后一项除外）。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.NumberNegativePattern">
+      <summary>获取或设置负数值的格式模式。</summary>
+      <returns>负数值的格式模式。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">该属性被设置为小于 0 或大于 4 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentDecimalDigits">
+      <summary>获取或设置在百分比值中使用的小数位数。</summary>
+      <returns>要在百分比值中使用的小数位数。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值为 2。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">该属性被设置为小于 0 或大于 99 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentDecimalSeparator">
+      <summary>获取或设置在百分比值中用作小数点分隔符的字符串。</summary>
+      <returns>在百分比值中用作小数分隔符的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“.”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+      <exception cref="T:System.ArgumentException">此属性当前设置为空字符串。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentGroupSeparator">
+      <summary>获取或设置在百分比值中隔离小数点左边数字组的字符串。</summary>
+      <returns>在百分比值中隔开小数点左边的位数组的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“,”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentGroupSizes">
+      <summary>获取或设置在百分比值中小数点左边每一组的位数。</summary>
+      <returns>百分比值中小数点左边的每一组的位数。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值是一个一维数组，该数组只包含一个设置为 3 的元素。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.ArgumentException">试图设置该属性，但此数组包含一个小于 0 或大于 9 的项。- 或 - 试图设置该属性，但此数组包含一个设置为 0 的项（最后一项除外）。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentNegativePattern">
+      <summary>获取或设置负百分比值的格式模式。</summary>
+      <returns>负百分比值的格式模式。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值是 0，它表示“-n %”，其中“%”是 <see cref="P:System.Globalization.NumberFormatInfo.PercentSymbol" />，<paramref name="n" /> 是一个数字。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">属性被设置为小于 0 或大于 11 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentPositivePattern">
+      <summary>获取或设置正百分比值的格式模式。</summary>
+      <returns>正百分比值的格式模式。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 的默认值是 0，它表示“n %”，其中“%”是 <see cref="P:System.Globalization.NumberFormatInfo.PercentSymbol" />，<paramref name="n" /> 是一个数字。</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">该属性被设置为小于 0 或大于 3 的值。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PercentSymbol">
+      <summary>获取或设置用作百分比符号的字符串。</summary>
+      <returns>用作百分比符号的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“%”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PerMilleSymbol">
+      <summary>获取或设置用作千分比符号的字符串。</summary>
+      <returns>用作千分比符号的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“‰”，它是 Unicode 字符 U+2030。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PositiveInfinitySymbol">
+      <summary>获取或设置表示正无穷大的字符串。</summary>
+      <returns>表示正无穷大的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“Infinity”。</returns>
+      <exception cref="T:System.ArgumentNullException">该属性被设置为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="P:System.Globalization.NumberFormatInfo.PositiveSign">
+      <summary>获取或设置指示关联数字是正值的字符串。</summary>
+      <returns>指示关联数字是正值的字符串。<see cref="P:System.Globalization.NumberFormatInfo.InvariantInfo" /> 默认为“+”。</returns>
+      <exception cref="T:System.ArgumentNullException">在设置操作中，要分配的值为 null。</exception>
+      <exception cref="T:System.InvalidOperationException">正在设置该属性，但 <see cref="T:System.Globalization.NumberFormatInfo" /> 对象是只读的。</exception>
+    </member>
+    <member name="M:System.Globalization.NumberFormatInfo.ReadOnly(System.Globalization.NumberFormatInfo)">
+      <summary>返回只读的 <see cref="T:System.Globalization.NumberFormatInfo" /> 包装。</summary>
+      <returns>
+        <paramref name="nfi" /> 周围的只读 <see cref="T:System.Globalization.NumberFormatInfo" /> 包装。</returns>
+      <param name="nfi">要包装的 <see cref="T:System.Globalization.NumberFormatInfo" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="nfi" /> 为 null。</exception>
+    </member>
+    <member name="T:System.Globalization.RegionInfo">
+      <summary>包含国家/地区的相关信息。</summary>
+    </member>
+    <member name="M:System.Globalization.RegionInfo.#ctor(System.String)">
+      <summary>基于按名称指定的国家/地区或特定区域性初始化 <see cref="T:System.Globalization.RegionInfo" /> 类的新实例。</summary>
+      <param name="name">包含 ISO 3166 中为国家/地区定义的由两个字母组成的代码的字符串。- 或 -包含特定区域性、自定义区域性或仅适用于 Windows 的区域性的区域性名称的字符串。如果区域性名称未采用 RFC 4646 格式，应用程序应指定整个区域性名称，而不是仅指定国家/地区。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="name" /> is null.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="name" /> is not a valid country/region name or specific culture name.</exception>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.CurrencySymbol">
+      <summary>获取与国家/地区关联的货币符号。</summary>
+      <returns>与国家/地区关联的货币符号。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.CurrentRegion">
+      <summary>获取表示当前线程所使用的国家/地区的 <see cref="T:System.Globalization.RegionInfo" />。</summary>
+      <returns>表示当前线程所使用的国家/地区的 <see cref="T:System.Globalization.RegionInfo" />。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.DisplayName">
+      <summary>获取以 .NET Framework 本地化版本语言表示的国家/地区的全名。</summary>
+      <returns>以 .NET Framework 本地化版本语言表示的国家/地区的全名。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.EnglishName">
+      <summary>获取以英文表示的国家/地区的全名。</summary>
+      <returns>以英文表示的国家/地区的全名。</returns>
+    </member>
+    <member name="M:System.Globalization.RegionInfo.Equals(System.Object)">
+      <summary>确定指定对象与当前 <see cref="T:System.Globalization.RegionInfo" /> 对象是否为同一实例。</summary>
+      <returns>如果 <paramref name="value" /> 参数是一个 <see cref="T:System.Globalization.RegionInfo" /> 对象并且其 <see cref="P:System.Globalization.RegionInfo.Name" /> 属性与当前 <see cref="T:System.Globalization.RegionInfo" /> 对象的 <see cref="P:System.Globalization.RegionInfo.Name" /> 属性相同，则为 true；否则为 false。</returns>
+      <param name="value">将与当前 <see cref="T:System.Globalization.RegionInfo" /> 进行比较的对象。 </param>
+    </member>
+    <member name="M:System.Globalization.RegionInfo.GetHashCode">
+      <summary>用作当前 <see cref="T:System.Globalization.RegionInfo" /> 的哈希函数，适合用在哈希算法和数据结构（如哈希表）中。</summary>
+      <returns>当前 <see cref="T:System.Globalization.RegionInfo" /> 的哈希代码。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.IsMetric">
+      <summary>获取一个值，该值指示该国家/地区是否使用公制进行度量。</summary>
+      <returns>如果该国家/地区使用公制进行度量，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.ISOCurrencySymbol">
+      <summary>获取与国家/地区关联的由三个字符组成的 ISO 4217 货币符号。</summary>
+      <returns>与国家/地区关联的由三个字符组成的 ISO 4217 货币符号。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.Name">
+      <summary>获取当前 <see cref="T:System.Globalization.RegionInfo" /> 对象的名称或 ISO 3166 双字母国家/地区代码。</summary>
+      <returns>
+        <see cref="M:System.Globalization.RegionInfo.#ctor(System.String)" /> 构造函数的 <paramref name="name" /> 参数指定的值。返回值为大写。- 或 -在 ISO 3166 中定义的且由 <see cref="M:System.Globalization.RegionInfo.#ctor(System.Int32)" /> 构造函数的 <paramref name="culture" /> 参数指定的国家/地区的双字母代码。返回值为大写。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.NativeName">
+      <summary>获取一个国家/地区的名称，它使用该国家/地区的本地语言格式表示。</summary>
+      <returns>该国家/地区的本地名称，它使用与 ISO 3166 国家/地区代码关联的语言格式表示。</returns>
+    </member>
+    <member name="M:System.Globalization.RegionInfo.ToString">
+      <summary>返回一个字符串，它包含为当前 <see cref="T:System.Globalization.RegionInfo" /> 指定的区域性名称或 ISO 3166 双字母国家/地区代码。</summary>
+      <returns>一个字符串，它包含为当前 <see cref="T:System.Globalization.RegionInfo" /> 定义的区域性名称或 ISO 3166 双字母国家/地区代码。</returns>
+    </member>
+    <member name="P:System.Globalization.RegionInfo.TwoLetterISORegionName">
+      <summary>获取在 ISO 3166 中定义的由两个字母组成的国家/地区代码。</summary>
+      <returns>在 ISO 3166 中定义的由两个字母组成的国家/地区代码。</returns>
+    </member>
+    <member name="T:System.Globalization.StringInfo">
+      <summary>提供功能将字符串拆分为文本元素并循环访问这些文本元素。</summary>
+    </member>
+    <member name="M:System.Globalization.StringInfo.#ctor">
+      <summary>初始化 <see cref="T:System.Globalization.StringInfo" /> 类的新实例。</summary>
+    </member>
+    <member name="M:System.Globalization.StringInfo.#ctor(System.String)">
+      <summary>将 <see cref="T:System.Globalization.StringInfo" /> 类的新实例初始化为指定的字符串。</summary>
+      <param name="value">用于初始化此 <see cref="T:System.Globalization.StringInfo" /> 对象的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="value" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.StringInfo.Equals(System.Object)">
+      <summary>指示当前 <see cref="T:System.Globalization.StringInfo" /> 对象是否与指定的对象相等。</summary>
+      <returns>如果 <paramref name="value" /> 参数是 <see cref="T:System.Globalization.StringInfo" /> 对象并且其 <see cref="P:System.Globalization.StringInfo.String" /> 属性等同于此 <see cref="T:System.Globalization.StringInfo" /> 对象的 <see cref="P:System.Globalization.StringInfo.String" /> 属性，则为 true；否则，为 false。</returns>
+      <param name="value">一个对象。</param>
+    </member>
+    <member name="M:System.Globalization.StringInfo.GetHashCode">
+      <summary>计算当前 <see cref="T:System.Globalization.StringInfo" /> 对象的值的哈希代码。</summary>
+      <returns>基于此 <see cref="T:System.Globalization.StringInfo" /> 对象的字符串值的 32 位有符号整数哈希代码。</returns>
+    </member>
+    <member name="M:System.Globalization.StringInfo.GetNextTextElement(System.String)">
+      <summary>获取指定字符串中的第一个文本元素。</summary>
+      <returns>包含指定字符串中的第一个文本元素的字符串。</returns>
+      <param name="str">要从其获取文本元素的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.StringInfo.GetNextTextElement(System.String,System.Int32)">
+      <summary>获取指定字符串中指定索引处的文本元素。</summary>
+      <returns>包含指定字符串中指定索引处的文本元素的字符串。</returns>
+      <param name="str">要从其获取文本元素的字符串。</param>
+      <param name="index">文本元素开始位置的从零开始的索引。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> 超出了 <paramref name="str" /> 的有效索引范围。</exception>
+    </member>
+    <member name="M:System.Globalization.StringInfo.GetTextElementEnumerator(System.String)">
+      <summary>返回一个循环访问整个字符串的文本元素的枚举数。</summary>
+      <returns>整个字符串的 <see cref="T:System.Globalization.TextElementEnumerator" />。</returns>
+      <param name="str">要循环访问的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> 为 null。</exception>
+    </member>
+    <member name="M:System.Globalization.StringInfo.GetTextElementEnumerator(System.String,System.Int32)">
+      <summary>返回一个枚举数，它循环访问字符串的文本元素并从指定索引处开始。</summary>
+      <returns>在 <paramref name="index" /> 处开始的字符串的 <see cref="T:System.Globalization.TextElementEnumerator" />。</returns>
+      <param name="str">要循环访问的字符串。</param>
+      <param name="index">开始迭代处的从零开始的索引。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> 超出了 <paramref name="str" /> 的有效索引范围。</exception>
+    </member>
+    <member name="P:System.Globalization.StringInfo.LengthInTextElements">
+      <summary>获取当前 <see cref="T:System.Globalization.StringInfo" /> 对象中的文本元素的数目。</summary>
+      <returns>此 <see cref="T:System.Globalization.StringInfo" /> 对象中的基本字符、代理项对和组合字符序列的数目。</returns>
+    </member>
+    <member name="M:System.Globalization.StringInfo.ParseCombiningCharacters(System.String)">
+      <summary>返回指定字符串中每个基字符、高代理项或控制字符的索引。</summary>
+      <returns>一个整数数组，它包含指定字符串中每个基字符、高代理项或控制字符的索引（从零开始）。</returns>
+      <param name="str">要搜索的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> 为 null。</exception>
+    </member>
+    <member name="P:System.Globalization.StringInfo.String">
+      <summary>获取或设置当前 <see cref="T:System.Globalization.StringInfo" /> 对象的值。</summary>
+      <returns>作为当前 <see cref="T:System.Globalization.StringInfo" /> 对象的值的字符串。</returns>
+      <exception cref="T:System.ArgumentNullException">设置操作中的值为 null。</exception>
+    </member>
+    <member name="T:System.Globalization.TextElementEnumerator">
+      <summary>枚举字符串的文本元素。</summary>
+    </member>
+    <member name="P:System.Globalization.TextElementEnumerator.Current">
+      <summary>获取字符串中的当前文本元素。</summary>
+      <returns>包含字符串中当前文本元素的对象。</returns>
+      <exception cref="T:System.InvalidOperationException">枚举数位于字符串的第一个文本元素之前或最后一个文本元素之后。</exception>
+    </member>
+    <member name="P:System.Globalization.TextElementEnumerator.ElementIndex">
+      <summary>获取枚举数当前置于其上的文本元素的索引。</summary>
+      <returns>枚举数当前置于其上的文本元素的索引。</returns>
+      <exception cref="T:System.InvalidOperationException">枚举数位于字符串的第一个文本元素之前或最后一个文本元素之后。</exception>
+    </member>
+    <member name="M:System.Globalization.TextElementEnumerator.GetTextElement">
+      <summary>获取字符串中的当前文本元素。</summary>
+      <returns>一个包含所读取的字符串中当前文本元素的新字符串。</returns>
+      <exception cref="T:System.InvalidOperationException">枚举数位于字符串的第一个文本元素之前或最后一个文本元素之后。</exception>
+    </member>
+    <member name="M:System.Globalization.TextElementEnumerator.MoveNext">
+      <summary>将枚举数前移到字符串的下一个文本元素。</summary>
+      <returns>如果枚举数成功前移到下一个文本元素，则为 true；如果枚举数已超过字符串的结尾，则为 false。</returns>
+    </member>
+    <member name="M:System.Globalization.TextElementEnumerator.Reset">
+      <summary>将枚举数设置为其初始位置，该位置位于字符串中第一个文本元素之前。</summary>
+    </member>
+    <member name="T:System.Globalization.TextInfo">
+      <summary>定义特定于书写系统的文本属性和行为（如大小写）。</summary>
+    </member>
+    <member name="P:System.Globalization.TextInfo.CultureName">
+      <summary>获取与当前 <see cref="T:System.Globalization.TextInfo" /> 对象关联的区域性的名称。</summary>
+      <returns>区域性的名称。</returns>
+    </member>
+    <member name="M:System.Globalization.TextInfo.Equals(System.Object)">
+      <summary>确定指定的对象是否与当前 <see cref="T:System.Globalization.TextInfo" /> 对象表示同一书写体系。</summary>
+      <returns>如果 <paramref name="obj" /> 与当前 <see cref="T:System.Globalization.TextInfo" /> 表示同一书写系统，则为 true；否则为 false。</returns>
+      <param name="obj">将与当前 <see cref="T:System.Globalization.TextInfo" /> 进行比较的对象。 </param>
+    </member>
+    <member name="M:System.Globalization.TextInfo.GetHashCode">
+      <summary>用作当前 <see cref="T:System.Globalization.TextInfo" /> 的哈希函数，适合用在哈希算法和数据结构（如哈希表）中。</summary>
+      <returns>当前 <see cref="T:System.Globalization.TextInfo" /> 的哈希代码。</returns>
+    </member>
+    <member name="P:System.Globalization.TextInfo.IsReadOnly">
+      <summary>获取一个值，该值指示当前 <see cref="T:System.Globalization.TextInfo" /> 对象是否为只读。</summary>
+      <returns>如果当前 <see cref="T:System.Globalization.TextInfo" /> 对象为只读，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Globalization.TextInfo.IsRightToLeft">
+      <summary>获取一个值，该值指示当前 <see cref="T:System.Globalization.TextInfo" /> 对象是否表示文本从右到左书写的书写系统。</summary>
+      <returns>如果文本从右到左书写，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Globalization.TextInfo.ListSeparator">
+      <summary>获取或设置在列表中分隔项的字符串。</summary>
+      <returns>在列表中分隔项的字符串。</returns>
+      <exception cref="T:System.ArgumentNullException">The value in a set operation is null.</exception>
+      <exception cref="T:System.InvalidOperationException">In a set operation, the current <see cref="T:System.Globalization.TextInfo" /> object is read-only.</exception>
+    </member>
+    <member name="M:System.Globalization.TextInfo.ToLower(System.Char)">
+      <summary>将指定的字符转换为小写。</summary>
+      <returns>转换为小写的指定字符。</returns>
+      <param name="c">要转换为小写的字符。</param>
+    </member>
+    <member name="M:System.Globalization.TextInfo.ToLower(System.String)">
+      <summary>将指定的字符串转换为小写。</summary>
+      <returns>转换为小写的指定字符串。</returns>
+      <param name="str">要转换为小写的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> is null. </exception>
+    </member>
+    <member name="M:System.Globalization.TextInfo.ToString">
+      <summary>返回表示当前 <see cref="T:System.Globalization.TextInfo" /> 的字符串。</summary>
+      <returns>表示当前 <see cref="T:System.Globalization.TextInfo" /> 的字符串。</returns>
+    </member>
+    <member name="M:System.Globalization.TextInfo.ToUpper(System.Char)">
+      <summary>将指定的字符转换为大写。</summary>
+      <returns>转换为大写的指定字符。</returns>
+      <param name="c">要转换为大写的字符。</param>
+    </member>
+    <member name="M:System.Globalization.TextInfo.ToUpper(System.String)">
+      <summary>将指定的字符串转换为大写。</summary>
+      <returns>转换为大写的指定字符串。</returns>
+      <param name="str">要转换为大写的字符串。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="str" /> is null. </exception>
+    </member>
+    <member name="T:System.Globalization.UnicodeCategory">
+      <summary>定义字符的 Unicode 类别。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.ClosePunctuation">
+      <summary>成对的标点符号（例如括号、方括号和大括号）的结束字符。由 Unicode 代码“Pe”（标点，结束）表示。值为 21。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.ConnectorPunctuation">
+      <summary>连接两个字符的连接符标点字符。由 Unicode 代码“Pc”（标点，连接符）表示。值为 18。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.Control">
+      <summary>控制代码字符，其 Unicode 值是 U+007F，或者位于 U+0000 到 U+001F 或 U+0080 到 U+009F 范围内。由 Unicode 代码“Cc”（其他，控制）表示。值为 14。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.CurrencySymbol">
+      <summary>货币符号字符。由 Unicode 代码“Sc”（符号，货币）表示。值为 26。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.DashPunctuation">
+      <summary>短划线或连字符字符。由 Unicode 代码“Pd”（标点，短划线）表示。值为 19。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.DecimalDigitNumber">
+      <summary>十进制数字字符，即范围 0 到 9 内的字符。由 Unicode 代码“Nd”（数字，十进制数字）表示。值为 8。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.EnclosingMark">
+      <summary>封闭符号字符，它将基字符前面的所有字符（包括基字符）括起来。由 Unicode 代码“Me”（符号，封闭）表示。值为 7。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.FinalQuotePunctuation">
+      <summary>右引号或后引号字符。由 Unicode 代码“Pf”（标点，后引号）表示。值为 23。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.Format">
+      <summary>格式字符，它影响文本布局或文本处理操作，但是它通常不会呈现。由 Unicode 代码“Cf”（其他，格式）表示。值为 15。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.InitialQuotePunctuation">
+      <summary>左引号或前引号字符。由 Unicode 代码“Pi”（标点，前引号）表示。值为 22。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.LetterNumber">
+      <summary>由字母表示的数字，而不是十进制数字，例如，罗马数字 5 由字母“V”表示。此指示符由 Unicode 代码“Nl”（数字，字母）表示。值为 9。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.LineSeparator">
+      <summary>用于分隔文本各行的字符。由 Unicode 代码“Zl”（分隔符，行）表示。值为 12。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.LowercaseLetter">
+      <summary>小写字母。由 Unicode 代码“Ll”（字母，小写）表示。值为 1。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.MathSymbol">
+      <summary>数学符号字符，例如“+”或“=”。由 Unicode 代码“Sm”（符号，数学）表示。值为 25。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.ModifierLetter">
+      <summary>修饰符字母字符，它是独立式的间距字符，指示前面字母的修改。由 Unicode 代码“Lm”（字母，修饰符）表示。值为 3。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.ModifierSymbol">
+      <summary>修饰符符号字符，它指示环绕字符的修改。例如，分数斜线号指示其左侧的数字为分子，右侧的数字为分母。此指示符由 Unicode 代码“Sk”（符号，修饰符）表示。值为 27。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.NonSpacingMark">
+      <summary>指示基字符的修改的非间距字符。由 Unicode 代码“Mn”（符号，非间距）表示。值为 5。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OpenPunctuation">
+      <summary>成对的标点符号（例如括号、方括号和大括号）的开始字符。由 Unicode 代码“Ps”（标点，开始）表示。值为 20。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OtherLetter">
+      <summary>不属于大写字母、小写字母、词首字母大写或修饰符字母的字母。由 Unicode 代码“Lo”（字母，其他）表示。值为 4。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OtherNotAssigned">
+      <summary>未指派给任何 Unicode 类别的字符。由 Unicode 代码“Cn”（其他，未分配）表示。值为 29。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OtherNumber">
+      <summary>既不是十进制数字也不是字母数字的数字，例如分数 1/2。此指示符由 Unicode 代码“No”（数字，其他）表示。值为 10。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OtherPunctuation">
+      <summary>不属于连接符、短划线、开始标点、结束标点、前引号或后引号的标点字符。由 Unicode 代码“Po”（标点，其他）表示。值为 24。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.OtherSymbol">
+      <summary>不属于数学符号、货币符号或修饰符符号的符号字符。由 Unicode 代码“So”（符号，其他）表示。值为 28。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.ParagraphSeparator">
+      <summary>用于分隔段落的字符。由 Unicode 代码“Zp”（分隔符，段落）表示。值为 13。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.PrivateUse">
+      <summary>专用字符，其 Unicode 值在范围 U+E000 到 U+F8FF 内。由 Unicode 代码“Co”（其他，专用）表示。值为 17。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.SpaceSeparator">
+      <summary>没有标志符号但不属于控制或格式字符的空白字符。由 Unicode 代码“Zs”（分隔符，空白）表示。值为 11。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.SpacingCombiningMark">
+      <summary>间距字符，它指示基字符的修改并影响基字符的标志符号的宽度。由 Unicode 代码“Mc”（符号，间距组合）表示。值为 6。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.Surrogate">
+      <summary>高代理项或低代理项字符。代理项代码值在范围 U+D800 到 U+DFFF 内。由 Unicode 代码“Cs”（其他，代理项）表示。值为 16。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.TitlecaseLetter">
+      <summary>词首字母大写的字母。由 Unicode 代码“Lt”（字母，词首字母大写）表示。值为 2。</summary>
+    </member>
+    <member name="F:System.Globalization.UnicodeCategory.UppercaseLetter">
+      <summary>大写字母。由 Unicode 代码“Lu”（字母，大写）表示。值为 0。</summary>
+    </member>
+  </members>
+</doc>

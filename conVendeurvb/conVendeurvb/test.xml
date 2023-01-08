@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- ?xml-stylesheet href="bonjour.css" type="text/css"? -->
+<listedetitres xmlns="E:\travail-tp\xml\test.xsd">
+    <manuel>
+        <titre>Windows 2022</titre>
+        <auteur>Emile Leroy</auteur>
+        <auteur>Paul Préboist</auteur>
+        <auteur>unauteur Detrop</auteur>
+        <editeur>Nathan</editeur>
+        <prix>56</prix>
+	    <datePremierePublication>67/43/1487</datePremierePublication>
+	    <ISBN>CG728IUYCH72UGHBYX2BX2GXFV2YDGF2VU</ISBN> 
+    </manuel>
+    <manuel>
+        <titre>PHP et Apache</titre>
+        <auteur>Jean Dubois</auteur>
+        <editeur>Bordas</editeur>
+        <description>mysql en plus</description>
+        <description>mysql en plus</description>
+        <prix>34</prix>
+	    <datePremierePublication>10/24/483</datePremierePublication>
+	    <ISBN>J5809GH85FJY</ISBN>
+    </manuel>
+    <manuel>
+        <titre>HTML et le Web</titre>
+        <auteur>Denis Pépin</auteur>
+        <editeur>Peoplesoft</editeur>
+        <description>programmation avancée</description>
+        <prix>15</prix>
+	    <datePremierePublication>30/14/3587</datePremierePublication>
+	    <ISBN>GV478CU4CH74GB7RUG7U</ISBN>
+    </manuel>
+    <manuel>
+        <titre>Programmation</titre>
+		<auteur>Dominique</auteur>
+        <prix>56</prix>
+	    <datePremierePublication>30/26/453</datePremierePublication>
+	    <ISBN>8B7H328U3BCG38H3XJ38H83</ISBN>
+    </manuel>
+	<manuel>
+		<auteur>charlier</auteur>
+        <titre>un manuek</titre>
+        <prix>1</prix>
+	    <datePremierePublication>36/2/6323</datePremierePublication>
+	    <ISBN>NIV84938UCH32N8CU9IJ</ISBN>
+	</manuel>
+
+</listedetitres>

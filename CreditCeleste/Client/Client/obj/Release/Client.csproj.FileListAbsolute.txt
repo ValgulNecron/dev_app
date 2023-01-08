@@ -1,0 +1,7 @@
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\bin\Release\Client.dll
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\bin\Release\Client.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\obj\Release\Client.dll
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\obj\Release\Client.pdb
+C:\Users\yggra\Desktop\CreditCeleste\Client\Client\bin\Release\Client.xml
