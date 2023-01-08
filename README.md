@@ -1,3 +1,3 @@
 # dev_web
 
-all the web dev done during class
+all the dotnet dev done during class
