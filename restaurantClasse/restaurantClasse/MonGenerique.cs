@@ -32,7 +32,6 @@ namespace restaurantClasse
             writer.Serialize(file, unObj);
             file.Close();
         }
-        // la meme chose mes en jso
         public static void WriteJSON<T>(T unObj)
         {
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//Restaurant.json";
@@ -43,7 +42,6 @@ namespace restaurantClasse
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//" + nomObjet + ".json";
             System.IO.File.WriteAllText(path, JsonConvert.SerializeObject(unObj));
         }
-        // la meme chose en yaml and yanq
         public static void WriteYAML<T>(T unObj)
         {
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//Restaurant.yaml";
